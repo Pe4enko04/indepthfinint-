@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+.secondbg{
+background-image: url("back2.jpg");
+    height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+
+}
+.back{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back1{
+    font-size:52px;
+    data-customstyle="yes"
+    align-items: center;
+    justify-content: center;
+}
+.back3{
+    background: blue;
+}
