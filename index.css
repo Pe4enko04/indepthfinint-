@@ -5,7 +5,10 @@ body{
 background-image: url("back2.jpg");
     height: 100vh;
     width: 100%;
-    color: whitesmoke;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
 .back{
@@ -16,11 +19,60 @@ background-image: url("back2.jpg");
     justify-content: center;
 }
 .back1{
-    font-size:52px;
+    font-size:60px;
     data-customstyle="yes"
     align-items: center;
     justify-content: center;
 }
 .back3{
-    background: blue;
+    background: #1e2e75;
+    color: white;
+
+
+}
+.about{
+font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.about2{
+font-size: 62px;
+     font-family: "Lucida Console", Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.metro{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("metro.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.metro2{
+    background: #1e2e75;
+    font-size: 20px;
+     text-align:center;
+    height: 260px;
+    width: 420px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 800px;
+
+    color: white;
+
+}
+.metro3{
+     background: #1e2e75;
+    height: 270px;
+    width: 430px;
+}
+.services{
+font-size: 20px;
+}
+.services2{
+    font-size: 35px;
+}
+.center{
+text-align: center;
+    
 }
