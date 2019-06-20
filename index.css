@@ -20,7 +20,7 @@ background-image: url("back2.jpg");
 }
 .back1{
     font-size:60px;
-    data-customstyle="yes"
+    data-customstyle: "yes";
     align-items: center;
     justify-content: center;
 }
@@ -58,6 +58,10 @@ font-size: 62px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 800px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 
     color: white;
 
@@ -84,15 +88,41 @@ box-sizing: content-box;
 
 }
 .conteiner{
-background: #4364ff;
-    position:fixed;
+background: #1e2e75;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     width: auto;
     height: 50px;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
-    vertical-align:center;
+    vertical-align: center;
     color: white;
+}
+.service{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top:100px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.servicetext{
+text-align: center;
+    color: #1e2e75;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px
+}
+.end{
+    background: black;
 
 }
